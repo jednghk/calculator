@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 249, 196);
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 450px;
+}
+
+#calculator-display {
+    width: 393px;
+    height: 25%;
+    margin: 0;
+    direction: rtl;
+    caret-color: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+#calculator-keypad {
+    display: grid;
+    width: 400px;
+    height: 75%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    border: 1px solid black;
+}
