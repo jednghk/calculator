@@ -21,8 +21,10 @@ body {
     width: 393px;
     height: 25%;
     margin: 0;
-    direction: rtl;
+    direction: ltr;
+    text-align: right;
     caret-color: transparent;
+    pointer-events: none;
 }
 
 input::-webkit-outer-spin-button,
