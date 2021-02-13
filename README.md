@@ -1,6 +1,6 @@
 # Calculator
-Link to official project:
-https://www.theodinproject.com/courses/foundations/lessons/calculator
+[Live Preview](https://jod-nhk.github.io/calculator/calculator.html)
+[Link to official project description](https://www.theodinproject.com/courses/foundations/lessons/calculator)
 
 ## Reflection
 Hi guys!
