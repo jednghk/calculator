@@ -27,7 +27,7 @@ On the first day I was completely overwhelmed when trying to piece the logic tog
 helped was to make sure the calculator could do the most basic functions, before working on contingencies
 and improving the user experience.
 
-##Things to improve/learn
+## Things to improve/learn
 1. Testing
 - If theres one thing I REALLY wanna learn its this. Everytime I changed the code I made sure every function
 worked as it should. Even for this tiny project, it was relatively time consuming calculating random numbers
